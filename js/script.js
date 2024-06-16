@@ -209,7 +209,3 @@ document.addEventListener(RENDER_EVENT, function () {
     else completedTODOList.append(todoElement);
   }
 });
-
-document.addEventListener(SAVED_EVENT, function () {
-  console.log(localStorage.getItem(STORAGE_KEY));
-});
